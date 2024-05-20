@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {  
-    // língua e seeds diferentes
+    // Idioma e seeds diferentes
     setlocale(LC_ALL, "Portuguese");
     srand((unsigned) time(NULL));
     
@@ -31,9 +31,8 @@ int main()
     spaiv = rand() % 31;
     spdefiv = rand() % 31;
     speediv = rand() % 31;
-    cout << hpiv << " HP IVs, " << atkiv << " atk IVs, " << defiv << " def IVs, " << spaiv << " spatk IVs, " << spdefiv << " spdef IVs, " << speediv << " speed IVs. " << endl;
+    cout << hpiv << " HP IVs, " << atkiv << " Attack IVs, " << defiv << " Defense IVs, " << spaiv << " Special Attack IVs, " << spdefiv << " Special Defense IVs, " << speediv << " Speed IVs. " << endl;
 
-    
 
 return 0;
    
