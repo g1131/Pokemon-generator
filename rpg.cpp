@@ -13,7 +13,7 @@ int main()
     
     // randomização do pokémon
     int pkmn;
-    pkmn = rand() % 1026;
+    pkmn = rand() % 1026 + 1;
     cout << "Pokémon gerado -> " << pkmn << endl;
     
     // randomização da nature
