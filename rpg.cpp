@@ -13,7 +13,7 @@ int main()
     
     // randomização do pokémon
     int pkmn;
-    pkmn = rand() % 1025;
+    pkmn = rand() % 1026;
     cout << "Pokémon gerado -> " << pkmn << endl;
     
     // randomização da nature
@@ -25,12 +25,12 @@ int main()
     
     // randomização dos ivs
     int hpiv, atkiv, defiv, spaiv, spdefiv, speediv;
-    hpiv = rand() % 31;
-    atkiv = rand() % 31;
-    defiv = rand() % 31;
-    spaiv = rand() % 31;
-    spdefiv = rand() % 31;
-    speediv = rand() % 31;
+    hpiv = rand() % 32;
+    atkiv = rand() % 32;
+    defiv = rand() % 32;
+    spaiv = rand() % 32;
+    spdefiv = rand() % 32;
+    speediv = rand() % 32;
     cout << hpiv << " HP IVs, " << atkiv << " Attack IVs, " << defiv << " Defense IVs, " << spaiv << " Special Attack IVs, " << spdefiv << " Special Defense IVs, " << speediv << " Speed IVs. " << endl;
 
 
